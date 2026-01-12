@@ -3,40 +3,48 @@
 ## Business Question
 Despite rising incomes, homeownership remains increasingly out of reach for many U.S. households. In this project, I'll explore why do many households fail to become homeowners even when incomes rise, and at which stage of the buying process does affordability break down?
 Specifically:
-Is income growth enough to improve affordability?
-Which step causes the largest drop-off?
-Are financing conditions a stronger constraint than prices themselves?
+- Is income growth enough to improve affordability?
+- Which step causes the largest drop-off?
+- Are financing conditions a stronger constraint than prices themselves?
 
 ## Analytical Framing (Why a Funnel?)
 Rather than treating affordability as a single ratio, I model it as a funnel:
-Income-qualified – households earn enough to plausibly enter the market
-Savings-capable – households can accumulate a down payment
-Mortgage-eligible – households can qualify for financing
-Homeowner – households successfully purchase a home
+   1. Income-qualified – households earn enough to plausibly enter the market
+   2. Savings-capable – households can accumulate a down payment
+   3. Mortgage-eligible – households can qualify for financing
+   4. Homeowner – households successfully purchase a home
+      
 Each stage is defined as a binary condition, allowing conversion rates and drop-offs to be measured clearly—just like a product onboarding funnel.
 Using 2022 state-level median data, I identify the binding financial constraints and their geographic and economic patterns.
 
 ## Data Sources
-U.S. Census / ACS – household income, age, region
-Housing price indices (Zillow / FHFA) – regional price levels
-Mortgage rates (FRED) – financing conditions
+1. U.S. Census / ACS – household income, age, region
+
+2. Housing price indices (Zillow / FHFA) – regional price levels
+
+3. Mortgage rates (FRED) – financing conditions
+
 Note: 
-When direct savings data is unavailable, I use income-based proxies and clearly document assumptions.
-ACS data is cross-sectional (2022) and merged with macro indicators to illustrate structural affordability constraints rather than time dynamics.
+- When direct savings data is unavailable, I use income-based proxies and clearly document assumptions.
+- ACS data is cross-sectional (2022) and merged with macro indicators to illustrate structural affordability constraints rather than time dynamics.
 
 ## Methodology
-Cleaned and joined multi-year datasets at the household–region–year level
-Normalized monetary values and aligned time periods
+
+Cleaned and joined multi-year datasets at the household–region–year level.
+
+Normalized monetary values and aligned time periods.
+
 Constructed Funnel Stages (Binary Proxies):
-Income-qualified
-House price relative to income below affordability threshold.
-Savings-capable
-Price-to-income ratio low enough to plausibly accumulate a down payment.
-Mortgage-eligible
-Estimated monthly mortgage payment ≤ underwriting DTI threshold.
-Homeowner (Proxy)
-Households passing all three constraints above.
-These proxies are not literal household approvals, but structural stress indicators that reveal where economic frictions bind at scale.
+
+- Income-qualified: House price relative to income below affordability threshold.
+
+- Savings-capable: Price-to-income ratio low enough to plausibly accumulate a down payment.
+
+- Mortgage-eligible: Estimated monthly mortgage payment ≤ underwriting DTI threshold.
+
+- Homeowner (Proxy): Households passing all three constraints above.
+
+   These proxies are not literal household approvals, but structural stress indicators that reveal where economic frictions bind at scale.
 
 ## Funnel Overview
 
@@ -106,11 +114,9 @@ Preview images of each page are available in `/dashboard_preview/`.
 The dashboard shows that the U.S. housing crisis is not primarily an income problem, but a balance-sheet and asset-price problem. While most households earn enough to service a mortgage in theory, only a minority can accumulate sufficient wealth and meet debt constraints in high-price regions. Geographic price dispersion transforms housing from a labor-market good into a wealth-gated asset, reinforcing spatial and intergenerational inequality.
 
 ## Why This Matters
-For:
-Banks: highlights interest-rate sensitivity of qualified borrower pools
-Policymakers: identifies whether subsidies, zoning, or credit access should be targeted
-Product & Analytics teams: demonstrates how funnel modeling reveals hidden friction points beyond surface KPIs
+- For banks: highlights interest-rate sensitivity of qualified borrower pools.
+- For policymakers: identifies whether subsidies, zoning, or credit access should be targeted.
+- For product & analytics teams: demonstrates how funnel modeling reveals hidden friction points beyond surface KPIs.
 
 ## Conclusion
-By reframing housing affordability as a multi-stage funnel, this dashboard shows that the U.S. homeownership gap in 2022 is driven less by insufficient income and more by capital accumulation and mortgage financing constraints.
-Unlocking access requires addressing credit frictions, not only raising wages.
+By reframing housing affordability as a multi-stage funnel, this dashboard shows that the U.S. homeownership gap in 2022 is driven less by insufficient income and more by capital accumulation and mortgage financing constraints. Unlocking access requires addressing credit frictions, not only raising wages.
