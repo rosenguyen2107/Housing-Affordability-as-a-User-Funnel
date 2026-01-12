@@ -43,18 +43,20 @@ These proxies are not literal household approvals, but structural stress indicat
 
 The housing affordability funnel reveals a severe structural bottleneck in the path to homeownership. While approximately 71% of households meet basic income qualification thresholds, only 37% are able to accumulate sufficient savings for down payment, and just 23% ultimately meet mortgage underwriting criteria. The largest drop-off occurs at the savings capability stage, indicating that wealth constraints—rather than income alone—are the primary barrier to entering the housing market.
 
-## Geographic inequality
+## Geographic Inequality
+<img width="737" height="453" alt="Screenshot 2026-01-12 at 01 38 16" src="https://github.com/user-attachments/assets/5336a6fb-47ac-4bac-8607-4d1b05c53318" />
+<img width="691" height="460" alt="Screenshot 2026-01-12 at 01 38 51" src="https://github.com/user-attachments/assets/1b3e9b72-20d8-4b81-a272-ccec3d591abb" />
+<img width="553" height="369" alt="States with Lowest Price-to-Income Ratio" src="https://github.com/user-attachments/assets/62ad7aa9-c205-4bca-b125-b41d32a5b4fc" />
+<img width="576" height="312" alt="California" src="https://github.com/user-attachments/assets/89407382-c865-4bc4-8825-4bbe850b8ead" />
+<img width="578" height="315" alt="Iowa" src="https://github.com/user-attachments/assets/db648fba-8322-45b9-80eb-78cfb10d9fc9" />
 
-## 
-## Key Findings
- 1. The largest drop-off occurs at the mortgage stage
-Even among income-qualified households, a substantial share fails to qualify for financing—indicating that credit conditions, not income alone, are the primary bottleneck.
- 2. Higher income does not fully offset financing constraints
-Income growth improves early-stage funnel conversion, but does not prevent sharp drop-offs when mortgage conditions tighten.
- 3. Affordability constraints vary sharply by region
-High-cost regions experience significantly steeper funnel drop-offs, suggesting that price-to-income ratios amplify sensitivity to financing shocks.
+Geographically, affordability is highly uneven. Coastal and high-growth states such as Hawaii, California, and the District of Columbia exhibit extreme price-to-income ratios, systematically pushing households beyond sustainable debt-to-income limits. Even in states with comparable median incomes, housing prices vary widely, leading to sharp differences in mortgage eligibility and ownership outcomes.
 
+## Structural Relationships
+<img width="738" height="439" alt="Screenshot 2026-01-12 at 01 39 14" src="https://github.com/user-attachments/assets/01d9013c-7106-46d4-8dae-260f14235d2e" />
+<img width="544" height="328" alt="Screenshot 2026-01-12 at 01 39 49" src="https://github.com/user-attachments/assets/fd962413-f3da-41ed-9fef-3d2a87343bce" />
 
+Finally, the structural relationship analysis shows that housing cost inflation, not wage levels, is the dominant driver of financial stress. As the price-to-income ratio increases, total debt burdens rise almost linearly, rapidly eroding mortgage eligibility and suppressing ownership rates. Together, these patterns suggest that the U.S. housing crisis is less a problem of insufficient earnings and more a problem of asset price dynamics and down payment constraints, creating persistent barriers to wealth accumulation and intergenerational mobility.
 
 ## Interactive Dashboard
 
