@@ -1,4 +1,4 @@
-# Housing Affordability as a User Funnel
+# U.S. Housing Affordability & Homeownership Funnel
 
 ## Business Question
 Despite rising incomes, homeownership remains increasingly out of reach for many U.S. households. In this project, I'll explore why do many households fail to become homeowners even when incomes rise, and at which stage of the buying process does affordability break down?
